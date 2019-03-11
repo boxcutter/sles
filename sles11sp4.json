@@ -1,0 +1,11 @@
+{
+  "_comment": "Build with `packer build -var-file=sles11sp4.json sles.json`",
+  "vm_name": "sles11sp4",
+  "cpus": "1",
+  "memory": "4096",
+  "disk_size": "40000",
+  "guest_os_type": "sles11-64",
+  "yast_control_file": "sles-11-sp4-x86_64-autoinst.xml",
+  "iso_checksum": "4fbf22201876d571c719328f385d87d6d690fb3ceb5e093108cdf0373c43e855",
+  "iso_url": "iso/SLES-11-SP4-DVD-x86_64-GM-DVD1.iso"
+}
