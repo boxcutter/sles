@@ -87,6 +87,7 @@
       "scripts": [
         "script/sshd.sh",
         "script/vagrant.sh",
+        "script/sudoers.sh",
         "script/virtualbox.sh",
         "script/vmware.sh",
         "script/zypper-locks.sh",
