@@ -11,6 +11,10 @@ if os.suse?
     its('content') { should match('vagrant ALL=\(ALL\) NOPASSWD: ALL') }
   end
 
+  describe package('vim') do
+    it { should be_installed }
+  end
+
   if virtualization.system == 'vbox'
     # File resource doesn't support wildcards, so instead scrape ls output
     describe command('ls /home/vagrant/*.iso') do

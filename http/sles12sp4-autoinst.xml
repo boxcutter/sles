@@ -284,7 +284,7 @@
       <package>kexec-tools</package>
       <package>kernel-default-devel</package>
       <package>sudo</package>
-      <package>SuSEfirewall2</package>
+      <package>vim</package>
     </packages>
     <patterns config:type="list">
       <pattern>apparmor</pattern>

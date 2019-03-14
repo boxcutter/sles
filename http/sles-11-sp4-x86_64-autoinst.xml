@@ -121,6 +121,7 @@
       <package>gcc</package>
       <package>wget</package>
       <package>make</package>
+      <package>vim</package>
     </packages>
     <patterns config:type="list">
       <pattern>Minimal</pattern>
